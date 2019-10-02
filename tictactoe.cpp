@@ -147,6 +147,8 @@ class TicTacToe
 			}
 		}
 		mark(0,index);
+		system("clear");// to run this command in windows, replace the clear with CLS//
+		cout<<"AI marked the position: "<<index<<endl;
 		board();
 		return checkwin();
 	}
