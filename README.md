@@ -8,3 +8,7 @@ Till Now,I had implemented it in serial manner so it might be a little bit of pr
 Because it doesn't choose the first Max valued move which looks like repeating same moves.
 
 But wait,Try to win.
+
+NOTE : This code might not work in windows OS , so change line 150 from *system("clear")* to *system("CLS")*
+ 
+Happy Coding
